@@ -1,0 +1,108 @@
+.form-container {
+  width: 500px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 1px solid #95a0a7;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  box-shadow: -12px 13px 0px #ffe0b3;
+  justify-content: center;
+}
+.form-title {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.input-group input {
+  color: #2a414f;
+  width: 415px;
+  display: block;
+  height: 55px;
+  font-size: 20px;
+  box-sizing: border-box;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+}
+.form-submit {
+  width: 415px;
+  height: 55px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgba(255, 153, 0, 0.3);
+}
+.new-ema {
+  width: 263px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2a414f;
+}
+.form-link-container {
+  display: flex;
+  justify-content: center;
+}
+.form-link {
+  font-weight: 400;
+  width: 263px;
+  height: 18px;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  color: #ff9900;
+  text-decoration: none;
+}
+.form-container .form-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.form-container .form-line span {
+  width: 145px;
+  height: 0px;
+  border: 1px solid #95a0a7;
+}
+.form-container .form-line span p {
+  width: 16px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #95a0a7;
+}
+.login-with {
+  width: 415px;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid #95a0a7;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #2a414f;
+}
